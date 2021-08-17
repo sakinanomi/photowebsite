@@ -43,6 +43,7 @@ session_start();
                 </script>
 
                 <?php
+                mysqli_close($con);
             }
 
             else{
@@ -50,6 +51,7 @@ session_start();
 
                 <script>
                     alert("Password Incorrect");
+                    window.history.back();
                     window.location.replace("../html/index.html");
 
                 </script>
@@ -57,6 +59,7 @@ session_start();
 
 
             <?php
+            mysqli_close($con);
             }
 
             
@@ -67,10 +70,12 @@ session_start();
 
             <script>
                 alert("Invalid email address");
+                window.history.back();
                 window.location.replace("../html/index.html");
             </script>
 
             <?php
+            mysqli_close($con);
         }
 
        

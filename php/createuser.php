@@ -62,7 +62,7 @@
 
                         ?>
                         
-                        
+                        window.history.back();
                         window.location.replace("../html/index.html");
                         
                         
@@ -85,7 +85,8 @@
                 <script>
     
                     alert("Password confirmation failed!");
-                    window.location.replace("http://localhost:90/TEMP/html/index.html");
+                    window.history.back();
+                    window.location.replace("../html/index.html");
     
                 </script>
                 <?php
