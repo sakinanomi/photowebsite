@@ -36,7 +36,7 @@ session_start();
 
             if($userpass===$pass)
             {
-                echo"Done";
+                
                 ?>
                 <script>
                 window.location.replace("../html/welcome.php");//redirect to another page 

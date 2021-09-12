@@ -49,7 +49,9 @@
             if(($pass === $cpass))
             {
 
-                $insertSql="INSERT INTO signup (username, email, password) VALUES ('$username','$email','$pass')";
+                $token=bin2hex(random_bytes(15));
+
+                $insertSql="INSERT INTO signup (username, email, password, token) VALUES ('$username','$email','$pass' ,'$token')";
 
                 if (mysqli_query($con, $insertSql)) {
                     ?>

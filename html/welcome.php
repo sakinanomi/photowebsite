@@ -57,9 +57,9 @@
                 <a class="nav_link" href="#about"><b>ABOUT</b></a>
                 
                 <a class="nav_link" href="#view"><b>EXAMPLES</b></a>
-                <a class="nav_link" href="../php/logout.php"><b>LogOut</b></a>
+               
 
-                <a class="button " href="">upload</a>
+                <a class="button " href="../php/logout.php">LogOut</a>
             </div>
         </div>
     </nav>
@@ -99,7 +99,7 @@
             <div class="polaroid">
                 <img src="../images/img1.jpg" alt="smile" style="width:100%">
                 <div class="container">
-                <p><b>COLORS!!</b></p>
+                <p><b>MAKE GREYSCALE!!</b></p>
                 </div>
             </div>
 
@@ -116,14 +116,14 @@
             <div class="polaroid">
                 <img src="../images/img3.jpg" alt="image" style="width:100%">
                 <div class="container">
-                <p><b>GREY SCALE!!</b></p>
+                <p><b>ADD COLORS!!</b></p>
                 </div>
             </div>
 
             <div class="polaroid">
                 <img src="../images/img4.jpg" alt="image" style="width:100%">
                 <div class="container">
-                <p><b>GREEN BACKGROUNDS!!</b></p>
+                <p><b>CHANGE GREEN BACKGROUNDS!!</b></p>
                 </div>
             </div>
 

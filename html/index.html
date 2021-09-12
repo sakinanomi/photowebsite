@@ -38,20 +38,13 @@
             <button class="form_button" type="submit">Login</button>
             <p class="form__text">
                 <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create account</a><br><br>
-                <a class="form__link" href="./" id="forgotpass">Forgot Password?</a>
+                <a class="form__link" href="../php/recover_email.php" id="forgotpass">Forgot Password?</a>
             </p>
             
 
 
         </form>
-        <div id="signupError" class="hide">
-            Password conformation failed!
-
-        </div>
-        <div id="signupSuccess" class="hide">
-            User SignedUp Successfully!
-
-        </div>
+        
         <form class="form form__hidden" id="createAccount" action="../php/createuser.php" method="POST">
             <h2 class="form__title">Create Account</h2>
             <div class="form__input-group">
