@@ -68,7 +68,7 @@ session_start();
 
 
     <a href='#' id="download" download="editted.png">
-        <button >
+        <button onclick="down()" >
             Download
         </button>
     </a>

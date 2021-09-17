@@ -3,12 +3,13 @@ var width,height;
 var width_ori,height_ori;
 var btn_setter=document.getElementById("resize");
 var btn_status=0;
-var copy;
+let copy;
 var file;
 function upload()
 {
   file=document.getElementById("file");
   img=new SimpleImage(file);
+  
   copy=new SimpleImage(file);
   
   

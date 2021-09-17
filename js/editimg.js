@@ -4,7 +4,7 @@ function check()
 {
   if(img==null)
     {
-      //var x=1;
+      
       alert('image not loaded');
       return 0;
       
@@ -25,8 +25,9 @@ function makeRed()
       {
          pixel.setRed(255);
       }
+      img.drawTo(canvas);
    }
-   img.drawTo(canvas);
+   
 
 }
 
@@ -117,13 +118,28 @@ function addBorder()
    
    var h=img.getHeight();
    var w=img.getWidth();
-   for(pix of img.values())
+   if(h<320 || w<320)
    {
-      if((pix.getY()<=80||pix.getY()>=(h-80))||pix.getX()<=80||pix.getX()>=(w-80))
+      for(pix of img.values())
       {
-         pix.setRed(0);
-         pix.setBlue(0);
-         pix.setGreen(0);
+        if((pix.getY()<=10||pix.getY()>=(h-10))||pix.getX()<=10||pix.getX()>=(w-10))
+        {
+            pix.setRed(0);
+            pix.setBlue(0);
+            pix.setGreen(0);
+        }
+      }
+   }
+   
+   else{
+      for(pix of img.values())
+      {
+        if((pix.getY()<=80||pix.getY()>=(h-80))||pix.getX()<=80||pix.getX()>=(w-80))
+        {
+            pix.setRed(0);
+            pix.setBlue(0);
+            pix.setGreen(0);
+        }
       }
    }
    img.drawTo(canvas);
@@ -134,27 +150,25 @@ function reset()
 {
    if(check())
    {
-      
-      copy.drawTo(canvas);
+     
       img=copy;
+      img.drawTo(canvas);
+      
    }
   
    
 }
 
 var button = document.getElementById('download');
-button.addEventListener('click', function (e) {
-
-    if(check())
+function down()
+{
+  if(check())
     {
         var dataURL = canvas.toDataURL('image/png');
         button.href = dataURL;
 
     }
-    
-   
-});
-
+}
 /*function save()
 {
    copy=img;
