@@ -83,7 +83,7 @@
     <div id="main_text">
         
         <p style="margin-top: 200px;">Editing photos has never been easier!</p><br>
-        <a class="button" href="" style="margin-top: 500px;">Start Now</a>
+        <a class="button" href="uploading.php" style="margin-top: 500px;">Start Now</a>
 
         
     </div>

@@ -33,6 +33,7 @@ session_start();
             $userinfo=mysqli_fetch_assoc($query);
             $userpass=$userinfo['password'];
             $_SESSION['username']=$userinfo['username'];
+            $_SESSION['email']=$userinfo['email'];
 
             if($userpass===$pass)
             {
