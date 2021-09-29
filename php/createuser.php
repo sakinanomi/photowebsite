@@ -35,7 +35,7 @@
             <script>
 
                 alert("Email already exists");
-                window.location.replace("../html/index.html");
+                window.location.replace("../mainpages/index.php");
                 </script>
 
 
@@ -65,7 +65,7 @@
                         ?>
                         
                         window.history.back();
-                        window.location.replace("../html/index.html");
+                        window.location.replace("../mainpages/index.php");
                         
                         
                         </script>
@@ -88,7 +88,7 @@
     
                     alert("Password confirmation failed!");
                     window.history.back();
-                    window.location.replace("../html/index.html");
+                    window.location.replace("../mainpages/index.php");
     
                 </script>
                 <?php

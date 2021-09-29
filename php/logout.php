@@ -6,7 +6,7 @@ session_destroy();
 ?>
 <script>
     window.history.back();
-    window.location.replace("../html/index.html");
+    window.location.replace("../mainpages/index.php");
 </script>
 
 <?php

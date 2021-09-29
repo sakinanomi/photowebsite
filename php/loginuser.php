@@ -40,7 +40,7 @@ session_start();
                 
                 ?>
                 <script>
-                window.location.replace("../html/welcome.php");//redirect to another page 
+                window.location.replace("../mainpages/welcome.php");//redirect to another page 
                 </script>
 
                 <?php
@@ -53,7 +53,7 @@ session_start();
                 <script>
                     alert("Password Incorrect");
                     window.history.back();
-                    window.location.replace("../html/index.html");
+                    window.location.replace("../mainpages/index.php");
 
                 </script>
 
@@ -72,7 +72,7 @@ session_start();
             <script>
                 alert("Invalid email address");
                 window.history.back();
-                window.location.replace("../html/index.html");
+                window.location.replace("../mainpages/index.php");
             </script>
 
             <?php
