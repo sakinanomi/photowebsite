@@ -13,7 +13,7 @@
                  
    
 
-<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="/css/main.css">
     <title>signUp</title>
 </head>
 <body >
@@ -21,7 +21,7 @@
 
 
     <div class="container">
-        <form class="form " id="login" action="../php/loginuser.php" method="POST">
+        <form class="form " id="login" action="/php/loginuser.php" method="POST">
 
             <h2 class="form__title">Login</h2>
 
@@ -38,14 +38,14 @@
             <button class="form_button" type="submit">Login</button>
             <p class="form__text">
                 <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create account</a><br><br>
-                <a class="form__link" href="../php/recover_email.php" id="forgotpass">Forgot Password?</a>
+                <a class="form__link" href="/php/recover_email.php" id="forgotpass">Forgot Password?</a>
             </p>
             
 
 
         </form>
         
-        <form class="form form__hidden" id="createAccount" action="../php/createuser.php" method="POST">
+        <form class="form form__hidden" id="createAccount" action="/php/createuser.php" method="POST">
             <h2 class="form__title">Create Account</h2>
             <div class="form__input-group">
                 <input type="text" name="username" required class="form__input" autofocus placeholder="Username">
@@ -80,7 +80,7 @@
 
     </div>
 
-    <script src="../js/main.js">
+    <script src="/js/main.js">
 
     </script>
 

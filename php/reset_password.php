@@ -51,7 +51,7 @@ if(isset($_POST['submit']))
 
                     <script>
                         alert("Password Updated");
-                        window.location.replace("../mainpages/index.php");
+                        window.location.replace("../index.php");
                     </script>
                     <?php
                 }

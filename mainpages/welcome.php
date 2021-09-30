@@ -6,7 +6,7 @@
     ?>
     <script>
 
-        window.location.replace("index.php");
+        window.location.replace("../index.php");
         </script>
 
 
