@@ -21,6 +21,8 @@ This is a website developed using HTML,CSS,JS,PHP,MySQL which allows users to mo
 - More editing features
 - images to be stored on cloud 
 
+The demo video can be seen [here](https://youtu.be/zucqJ8dwCgA)
+
 ### Usefull links:
 - [send mail using xampp](https://www.youtube.com/watch?v=dNTZ8X9Xk_Q)
 - [password recovery](https://www.youtube.com/watch?v=mPr3ExTYyhk&t=1108s)
